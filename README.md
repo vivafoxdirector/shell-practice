@@ -27,8 +27,21 @@ https://qiita.com/maskedw/items/2dfdf6fa7eee991ddc45
 ### bash
 https://qiita.com/Ping/items/57fd75465dfada76e633
 
+### exec
+https://linuxcommand.net/exec/
+
 ### redirect
 https://shellscript.sunone.me/input_output.html
+https://linuxcommand.net/linux-bash-redirection/
+https://qiita.com/okisanjp/items/4bdf009176ecae312f84
+https://rcmdnk.com/blog/2014/01/15/computer-bash-zsh_2/
+https://blog.jxck.io/entries/2018-04-30/redirect-to-pts.html
+
+### tee
+https://eng-entrance.com/linux-command-tee
+
+### filedescript
+https://hacknote.jp/archives/35551/
 
 ## Install-Fonts
 ### REF
@@ -36,6 +49,9 @@ https://qiita.com/hirohiro77/items/771ffb64dddceabf69a3
 https://qiita.com/catfist/items/5504511fa5a028fc7c41
 http://kaworu.jpn.org/kaworu/2008-12-08-1.php
 https://www.xmisao.com/2013/09/01/how-to-use-find-and-xargs.html
+
+## exit status
+https://shellscript.sunone.me/exit_status.html
 
 내용: Bashの便利な構文だがよく忘れてしまうものの備忘録
 참조: https://qiita.com/Ping/items/57fd75465dfada76e633
