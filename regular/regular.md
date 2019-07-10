@@ -22,7 +22,7 @@ pattern1\|pattern2   pattern1 또는 pattern2 중 하나와 일치
 \(pattern\)          pattern을 그룹화한다. 매칭된 내용은 \num으로 참조할 수 있다.
 \                    정규표현으로 사용되는 특수문자를 일반적인 문자로 다룬다.
 
-例
+예
 grep '\[0-9]' source.txt                           # '[0-9]'の文字列を検索
 grep -E '(\[0-9]){2}' source.txt                   # '[0-9]'が2回続く文字列を検索
 grep '[Ll]inux' source.txt                         # 「Linux」または「linux」が含む行を検索する
@@ -37,6 +37,7 @@ grep '\<[A-Z]\{\6,15\}\>' source.txt               # 大文字アルファベッ
 grep '\<[A-Za-z]\{\6,15\}\>' source.txt            # 大文字小文字アルファベットが6～15文字含む行
 grep '\<[^0-9A-Za-z]\{\6,15\}\>' source.txt        # 大文字小文字アルファベットと数字以外の文字が6～15文字含む行
 grep '[0-9]\{3\}-[0-9]\{3\}-[0-9]\{4\}' source.txt # 電話番号000-000-0000を含む行
+echo "<a text=aaa>aaa<br>" | sed -e 's/<[^>]*>//g'
 ```
 
 # Refernce
