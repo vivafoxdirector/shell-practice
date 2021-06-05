@@ -1,2 +1,2 @@
 @ECHO OFF
-docker exec -ti 36cef660f3d3 amm
+docker exec -ti f2fd72355948 amm
